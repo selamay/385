@@ -1,3 +1,5 @@
+name: Deploy HTML Files to AppService - CMST385
+
 on:
 
   push:
@@ -16,7 +18,7 @@ jobs:
 
     - uses: actions/checkout@master
 
-    - name: Deploy HTML Files to AppService - CMST385
+    - name: Deploy to Azure Web App
 
       uses: azure/webapps-deploy@v1
 
